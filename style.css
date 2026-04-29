@@ -1,0 +1,16 @@
+#root{
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
