@@ -1,9 +1,8 @@
 Load More Tasks (MAX 100)
-Infinte Scroller 
 Social Media Comments 
-Todo list app
-Suduko Game
+Todo list app (Drag and Drop)
+Suduko Game (9x9)
 Online Food Ordering 
-Email 
-Compare Apps
+Email Web App
+Comparison Apps
 Comment Widgite (Nested comments like IG)
