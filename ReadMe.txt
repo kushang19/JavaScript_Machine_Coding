@@ -1,5 +1,4 @@
-Load More Tasks (MAX 100)
-Social Media Comments 
+PHASE 2 (MAANG): 
 Todo list app (Drag and Drop)
 Suduko Game (9x9)
 Online Food Ordering 
