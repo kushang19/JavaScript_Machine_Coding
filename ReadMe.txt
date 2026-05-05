@@ -1,3 +1,6 @@
+PHASE 1:
+Pagination
+
 PHASE 2 (MAANG): 
 Todo list app (Drag and Drop)
 Suduko Game (9x9)
