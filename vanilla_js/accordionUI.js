@@ -32,6 +32,7 @@ function renderList(){
      return `
       <div>
         <button
+        id="li-btn"
         data-index="${index}"
         style="width: 100%; text-align: left; cursor: pointer;"
         >${item?.title}</button>
@@ -59,6 +60,15 @@ function toggleAccordian(index){
 document.addEventListener("click", function(e){
   if(e.target.tagName === "BUTTON" && e.target.dataset.index){
     const index = Number(e.target.dataset.index)
+    toggleAccordian(index);
+  }
+});
+
+document.addEventListener("keydown", function(e){
+  if(e.key === "Enter" || e.key === " "){
+    const btn = e.target.closest("#li-btn");
+    if(!btn) return 
+    const index = Number(btn.target.dataset.index)
     toggleAccordian(index);
   }
 });

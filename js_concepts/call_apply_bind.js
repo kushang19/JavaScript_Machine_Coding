@@ -2,19 +2,17 @@
 
 // use function expression for printFullName
 
-let printFullName = function (state, city) {
+let printFullName = function(state, city){
   console.log(this.firstName + " " + this.lastName + ", " + state, " " + city);
 };
 
 const name = {
   firstName: "Kushang",
-
   lastName: "Gharat",
 };
 
 const name2 = {
   firstName: "Virat",
-
   lastName: "Kohli",
 };
 
